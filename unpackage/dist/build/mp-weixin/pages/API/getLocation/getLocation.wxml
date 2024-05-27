@@ -1,0 +1,1 @@
+<view><view class="uniUi-page-head"><view class="uniUi-page-head-title">getLocation</view></view><view><map latitude="{{latitude}}" longitude="{{longitude}}" marker="{{covers}}"></map></view></view>

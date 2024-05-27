@@ -1,0 +1,1 @@
+<view><view class="uniUi-page-head"><view class="uniUi-page-head-title">navigateTo</view></view><view class="uni-btn-v"><button type="primary" data-event-opts="{{[['tap',[['navigate',['$event']]]]]}}" bindtap="__e">跳转到test页面</button></view></view>

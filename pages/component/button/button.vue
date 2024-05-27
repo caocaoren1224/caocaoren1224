@@ -1,0 +1,41 @@
+<template>
+	<view>
+		<view class="uniUi-page-head">
+			<view class="uniUi-page-head-title">button</view>
+		</view>
+		<view class="uni-padding-wrap uni-common-mt">
+			<button type="primary">页面主操作Normal</button>
+			<button type="primary" loading="true">页面主操作Loading</button>
+			<button type="primary" disabled="true">页面主操作Disable</button>
+			<button type="default">页面主操作Normal</button>
+			<button type="default" disabled="true">页面次操作Normal</button>
+			<button type="warn">警告操作</button>
+			<button type="warn" disabled="true">警告操作Disable</button>
+			<button type="primary" plain="true">按钮</button>
+			<button type="primary" plain="true" disabled="true">不可点击按钮</button>
+			<button type="default" plain="true">按钮</button>
+			<button type="default" plain="true" disabled="true">不可点击按钮</button>
+			<button class="mini-btn" type="primary" size="mini">按钮</button>
+			<button class="mini-btn" type="default" size="mini">按钮</button>
+			<button class="mini-btn" type="warn" size="mini">按钮</button>
+		</view>
+		
+	</view>
+</template>S
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+
+</style>

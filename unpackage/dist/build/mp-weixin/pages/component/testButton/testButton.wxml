@@ -1,0 +1,1 @@
+<view><button size="mini" disabled="{{buttondisable}}" hover-start-time="100" data-event-opts="{{[['tap',[['goto',['/pages/index/index']]]]]}}" bindtap="__e">{{''+buttonText+''}}</button></view>

@@ -1,0 +1,1 @@
+<view><view class="uni-list-cell"><view class="uni-list-cell-left"><view class="uni-label-text">姓名：</view></view><view class="uni-list-cell-db"><input class="uni-input" type="text" disabled="{{true}}" name="name" value="{{name}}"/></view></view></view>

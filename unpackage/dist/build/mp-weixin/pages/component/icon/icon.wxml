@@ -1,0 +1,1 @@
+<view><view class="uniUi-page-head"><view class="uniUi-page-head-title">icon</view></view><block wx:for="{{iconType}}" wx:for-item="value" wx:for-index="index" wx:key="index"><view><icon type="{{value}}"></icon><text>{{''+value}}</text></view></block></view>

@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/tabBar/component/component",
+    "pages/tabBar/API/API",
+    "pages/tabBar/extUI/extUI",
+    "pages/tabBar/template/template",
+    "pages/view/view",
+    "pages/index/index",
+    "pages/component/icon/icon",
+    "pages/component/testButton/testButton",
+    "pages/component/button/button",
+    "pages/extUI/uni-combox/uni-combox",
+    "pages/API/log/log",
+    "pages/API/navigateTo/navigateTo",
+    "pages/API/test/test",
+    "pages/API/getLocation/getLocation"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "midButton": {
+      "iconPath": "static/c1.png",
+      "text": "发布"
+    },
+    "list": [
+      {
+        "pagePath": "pages/tabBar/component/component",
+        "iconPath": "static/component.png",
+        "selectedIconPath": "static/componentHL.png",
+        "text": "内置组件"
+      },
+      {
+        "pagePath": "pages/tabBar/extUI/extUI",
+        "iconPath": "static/extui.png",
+        "selectedIconPath": "static/extuiHL.png",
+        "text": "扩展组件"
+      },
+      {
+        "pagePath": "pages/tabBar/API/API",
+        "iconPath": "static/api.png",
+        "selectedIconPath": "static/apiHL.png",
+        "text": "接口"
+      },
+      {
+        "pagePath": "pages/tabBar/template/template",
+        "iconPath": "static/template.png",
+        "selectedIconPath": "static/templateHL.png",
+        "text": "模版"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
