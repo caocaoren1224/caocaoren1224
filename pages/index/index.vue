@@ -4,9 +4,6 @@
 		<view class="text-area">
 			<text class="title">{{title}}</text>
 		</view>
-		<view class="text-area">
-			<text class="title">{{title}}</text>
-		</view>
 	</view>
 </template>
 
